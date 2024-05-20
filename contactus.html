@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronica | laptops </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><h1>Electronica</h1><br></a>
+        <a href="mobile.html">Mobile</a>
+        <a href="laptops.html">Laptops</a>
+        <a href="repairs.html">Repairs</a>
+        <a href="Aboutus.html">About Us</a>
+    </div>
+    <section class="container5">
+        <h2>Kindly share your comments and feedbacks</h2><br>
+        <p>So we know where we shopuld improve.</p>
+    </section>
+
+    <div class="form-container">
+        <form name="feedbackForm" onsubmit="return validateForm()" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    
+    <footer>
+        <p>© 2024 Electronica. All rights reserved.</p>
+    </footer>
+</body>
+</html>
